@@ -21,6 +21,7 @@ body {
 
 .button_bar {
   display: inline-block;
+  flex: 1;
 }
 
 .intro {
