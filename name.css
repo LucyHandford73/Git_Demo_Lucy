@@ -28,11 +28,6 @@ body {
   flex-direction: row;
 }
 
-.tbl {
-  color: #390202;
-  font-family: "Work Sans", sans-serif;
-}
-
 .my_photo {
   padding-right: 10px;
   padding-bottom: 10px;
@@ -42,13 +37,26 @@ body {
   height: auto;
 }
 
+.tbl {
+  color: #390202;
+  font-family: "Work Sans", sans-serif;
+  display: flex;
+}
+
 th {
   text-align: center;
   padding: 12px;
+  background-color: #f3a9d0;
+  flex-direction: row;
+  flex: 1;
 }
+
 td {
   text-align: left;
   padding: 12px;
+  background-color: #fdc8e4;
+  flex-direction: column;
+  flex: 1;
 }
 
 a {
