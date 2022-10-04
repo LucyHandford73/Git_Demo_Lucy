@@ -21,7 +21,6 @@ body {
 
 .button_bar {
   display: inline-block;
-  flex-direction: row;
 }
 
 .intro {
@@ -39,6 +38,8 @@ body {
   padding-bottom: 10px;
   padding-top: 10px;
   border-radius: 30px;
+  width: 15%;
+  height: auto;
 }
 
 th {
@@ -60,7 +61,7 @@ a {
   padding: 12px;
   border-radius: 25px;
   border-color: #390202;
-  border-width: 1px;
+  flex: 1;
   cursor: pointer;
   display: inline-block;
   width: 120px;
