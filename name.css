@@ -1,0 +1,54 @@
+body {
+  background-color: #fff2f9;
+}
+
+.txt_style {
+  color: #390202;
+  font-family: "Work Sans", sans-serif;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.tbl {
+  color: #390202;
+  font-family: "Work Sans", sans-serif;
+}
+
+.my_photo {
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  border-radius: 30px;
+}
+
+th {
+  text-align: center;
+  padding: 12px;
+}
+td {
+  text-align: left;
+  padding: 12px;
+}
+
+a {
+  color: #1a00c1;
+  font-family: "Work Sans", sans-serif;
+}
+.btn {
+  background-color: #fdc8e4;
+  font-size: 16px;
+  padding: 12px;
+  border-radius: 25px;
+  border-color: #390202;
+  border-width: 1px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: #f3a9d0;
+  transition: 0.7s;
+}
