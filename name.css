@@ -12,6 +12,11 @@ body {
 
 .header_text {
   text-align: center;
+  font-size: large;
+}
+
+.small_screen_header {
+  display: none;
 }
 
 .txt_style {
@@ -21,7 +26,17 @@ body {
 
 .button_bar {
   display: inline-block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.header_button {
+  display: inline-block;
   flex: 1;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .intro {
@@ -29,13 +44,83 @@ body {
   flex-direction: row;
 }
 
-.my_photo {
+.intro_photo {
+  flex: 1;
+  padding-left: 20px;
   padding-right: 10px;
+}
+
+.intro_text {
+  flex: 2.5;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+.my_photo {
   padding-bottom: 10px;
   padding-top: 10px;
-  border-radius: 30px;
-  width: 15%;
+  border-radius: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  flex: 2;
+  width: 100%;
   height: auto;
+}
+
+@media (max-width: 1000px) {
+  .intro_photo {
+    flex: 2;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .intro_text {
+    flex: 3;
+    font-size: 120%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .button_bar {
+    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .header_button {
+    padding-top: 5px;
+  }
+}
+
+@media (max-width: 600px) {
+  .small_screen_header {
+    display: block;
+    text-align: center;
+    font-size: large;
+  }
+  .header_text {
+    display: none;
+  }
+  .intro {
+    display: inline-block;
+  }
+  .intro_photo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+  .button_bar {
+    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .header_button {
+    padding-top: 5px;
+  }
+  .intro_text {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
 .tbl {
