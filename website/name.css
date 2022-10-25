@@ -146,7 +146,7 @@ td {
 }
 
 a {
-  color: #1a00c1;
+  color: #390202;
   font-family: "Work Sans", sans-serif;
 }
 .btn {
@@ -159,6 +159,8 @@ a {
   cursor: pointer;
   display: inline-block;
   width: 140px;
+  color: #390202;
+  font-family: "Work Sans", sans-serif;
 }
 
 .btn:hover {
