@@ -43,5 +43,5 @@ jobs:
           file: .github/actions/Dockerfile          
           push: true          
           tags: |            
-            ghcr.io/ lucyhandford73/${{ github.event.repository.name }}:latest            
+            ghcr.io/lucyhandford73/${{ github.event.repository.name }}:latest            
             ghcr.io/lucyhandford73/${{ github.event.repository.name }}:${{ env.RELEASE_VERSION }}
